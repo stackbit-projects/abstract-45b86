@@ -5,7 +5,7 @@ sections:
     type: section_hero
     title: YCabal
     subtitle: |
-      ### Monopolizing transaction flow for arbitrage batching via MEV
+      #### Monopolizing transaction flow for arbitrage batching via MEV
     image: images/ycabal.png
     image_alt: Author avatar
   - title: Text
