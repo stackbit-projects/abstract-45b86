@@ -5,7 +5,7 @@ sections:
     type: section_hero
     title: YCabal
     subtitle: '### This is a super-cool hero subhead.'
-    image: images/Group 1.png
+    image: images/ycabal.png
     image_alt: Author avatar
   - title: Text
     section_id: intro
