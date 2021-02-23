@@ -5,7 +5,7 @@ sections:
     type: section_hero
     title: Manifold Finance
     subtitle: '### This is a super-cool hero subhead.'
-    image: images/favicon.png
+    image: images/Group 1.png
     image_alt: Author avatar
   - title: Text
     section_id: intro
