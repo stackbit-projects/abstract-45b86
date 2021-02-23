@@ -3,7 +3,7 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    title: Manifold Finance
+    title: YCabal
     subtitle: '### This is a super-cool hero subhead.'
     image: images/Group 1.png
     image_alt: Author avatar
