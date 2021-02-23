@@ -4,7 +4,8 @@ sections:
   - section_id: hero
     type: section_hero
     title: YCabal
-    subtitle: '### This is a super-cool hero subhead.'
+    subtitle: |
+      ### Monopolizing transaction flow for arbitrage batching via MEV
     image: images/ycabal.png
     image_alt: Author avatar
   - title: Text
