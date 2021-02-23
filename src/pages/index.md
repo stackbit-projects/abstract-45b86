@@ -11,26 +11,7 @@ sections:
   - title: Text
     section_id: intro
     type: section_content
-    content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla orci diam,
-      elementum consectetur elit non, tempus varius leo. In ut bibendum mauris.
-      Vestibulum mattis pharetra enim. Maecenas ornare vulputate nisi sed
-      condimentum. Fusce sit amet cursus nunc. Vivamus malesuada posuere mollis.
-      Aliquam facilisis neque eget ligula aliquam consequat.
-
-      ### This is an H3. Use it for subheads and subsections.
-
-      Donec malesuada, augue eu blandit porta, metus metus auctor leo, non
-      dapibus felis odio non tortor. Mauris sem orci, tristique eget [this is an
-      inline link](#) placerat non, eleifend tempor dolor. Quisque sed nisl
-      elit. Praesent pulvinar id urna quis cursus. In hac habitasse platea
-      dictumst. Mauris sed odio magna. Duis felis turpis, posuere at erat nec,
-      condimentum luctus nibh. Nam leo ante, tempor ut tellus vel, lacinia
-      aliquam velit. Mauris ut purus in nisl suscipit feugiat.
-
-      Pellentesque tempor aliquet dolor, ac consectetur lorem ornare id.
-      Vestibulum sit amet facilisis elit, sit amet rhoncus felis. Nunc rhoncus
-      porttitor sollicitudin. Quisque eu leo metus. Curabitur gravida nibh eu
+    content: "This is a strategy that realizes a profit by smart transaction batching for the purposes of arbitrage by controlling transaction ordering.\n\n\nRight now every user sends a transaction directly to the network mempool and thus gives away the arbitrage, front-running, back-running opportunities to miners(or random bots).\n\n**YCabal creates a virtualized mempool (i.e. a MEV-relay network) that aggregates transactions (batching), such transactions include:**\n\nPotential benefits including offering zero-cost trading fees (meaning profits from arbitrage are used to pay for user’s transactions). Additional benefits and potential applications are further discussed in this proposal.\n\nImportant: Note that there are\_*two*\_different uses of the concept of\_**batching**. For our purposes we use\_**batching**\_to denote the aggregation of transactions. Typically batching refers to the process of both aggregation of transactions for the purpose of reduced transactional cost.\n\n#### Forward Notes\n\n*   Multiple systems are at play, but at the most basic is the RPC permissioned network.\n\n*   Both on-chain contracts for arbitrage and off-chain infrastructure for calculating arbitrage are used to varying degrees\n\n*   Further development of a\_*interprotocol clearing and call market*\_are touched upon in this document. The initial release candidate of YCabal only concerns itself with the on-chain and off-chain components required to realize arbitrage profits.\n"
   - title: Recent Posts
     section_id: posts
     type: section_posts
